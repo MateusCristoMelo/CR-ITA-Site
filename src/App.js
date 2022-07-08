@@ -14,9 +14,9 @@ function App() {
         <Header />
 
           <Routes>
-            <Route path="/"  element ={<Home />}>  </Route>
-            <Route exact path="/dashboard" element ={<Dashboard />}>  </Route>
-            <Route exact path="/login"  element ={<Login />}> </Route>
+            <Route exact path = "/"  element ={<Home />}>  </Route>
+            <Route exact path = "/dashboard" element ={<Dashboard />}>  </Route>
+            <Route exact path = "/login"  element ={<Login />}> </Route>
           </Routes>
 
         <Footer />

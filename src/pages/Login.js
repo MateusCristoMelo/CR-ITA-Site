@@ -1,6 +1,6 @@
 function Login() {
     return (
-      <p>
+      <p style={{backgroundColor : "white"}}>
         Login
       </p> 
     );

@@ -1,27 +1,21 @@
-.BasicInfosContainer{
+.HowToUseContainer{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 4fr;
     grid-gap: 20px;
     padding: 20px;
 }
 
-.BasicInfosName{
+.HowToUseTitle{
+    
     text-align: center;
-    border-radius: 20px;
-    background-color: #183d6c;
-    color: white
+    text-decoration: underline;
+    color: white;
+    font-size: xx-large;
+    
 }
 
-.BasicInfosEng{
+.HowToUseText{
     text-align: center;
-    border-radius: 20px;
-    background-color: #183d6c;
-    color: white
-}
-
-.BasicInfosPDF{
-    text-align: center;
-    border-radius: 20px;
-    background-color: #183d6c;
-    color: white
+    color: white;
+    font-size: x-large;
 }

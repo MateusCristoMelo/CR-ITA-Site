@@ -1,8 +1,12 @@
+import AboutProject from "../components/homepage/AboutProject";
+import HowToUse from "../components/homepage/HowToUse";
+
 function Home() {
     return (
-      <p>
-        Home
-      </p> 
+      <div>
+        <AboutProject />
+        <HowToUse />
+      </div>
     );
   }
 
