@@ -1,25 +1,27 @@
-.AboutProjectContainer{
+.LoginContainer{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
+    grid-template-columns: 2fr 2fr 2fr;
+    align-items: center;
+    text-align: center;
     padding: 20px;
+    color: white;
 }
 
-.BasicInfosName{
+.LoginUsername{
     text-align: center;
     border-radius: 20px;
     background-color: #183d6c;
     color: white
 }
 
-.BasicInfosEng{
+.LoginPassword{
     text-align: center;
     border-radius: 20px;
     background-color: #183d6c;
     color: white
 }
 
-.BasicInfosPDF{
+.LoginText{
     text-align: center;
     border-radius: 20px;
     background-color: #183d6c;
